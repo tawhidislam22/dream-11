@@ -1,0 +1,167 @@
+[
+    {
+      "name": "John Smith",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "Australia",
+      "rating": 87,
+      "batting_style": "Right-handed",
+      "allrounder": true,
+      "bowler": true,
+      "bowling_style": "Right-arm medium",
+      "hire_price": 1500000
+    },
+    {
+      "name": "Viraj Sharma",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "India",
+      "rating": 92,
+      "batting_style": "Left-handed",
+      "allrounder": false,
+      "bowler": false,
+      "bowling_style": "N/A",
+      "hire_price": 1800000
+    },
+    {
+      "name": "David Thompson",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "England",
+      "rating": 85,
+      "batting_style": "Right-handed",
+      "allrounder": false,
+      "bowler": true,
+      "bowling_style": "Right-arm fast",
+      "hire_price": 1600000
+    },
+    {
+      "name": "Mohammed Ali",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "Pakistan",
+      "rating": 90,
+      "batting_style": "Left-handed",
+      "allrounder": true,
+      "bowler": true,
+      "bowling_style": "Right-arm leg-spin",
+      "hire_price": 1750000
+    },
+    {
+      "name": "Chris Johnson",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "South Africa",
+      "rating": 83,
+      "batting_style": "Right-handed",
+      "allrounder": false,
+      "bowler": true,
+      "bowling_style": "Right-arm off-spin",
+      "hire_price": 1400000
+    },
+    {
+      "name": "James Carter",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "New Zealand",
+      "rating": 88,
+      "batting_style": "Right-handed",
+      "allrounder": true,
+      "bowler": true,
+      "bowling_style": "Left-arm medium-fast",
+      "hire_price": 1650000
+    },
+    {
+      "name": "Ravi Kumar",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "India",
+      "rating": 89,
+      "batting_style": "Right-handed",
+      "allrounder": false,
+      "bowler": false,
+      "bowling_style": "N/A",
+      "hire_price": 1700000
+    },
+    {
+      "name": "Luke Harper",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "Australia",
+      "rating": 82,
+      "batting_style": "Left-handed",
+      "allrounder": false,
+      "bowler": true,
+      "bowling_style": "Right-arm fast-medium",
+      "hire_price": 1300000
+    },
+    {
+      "name": "Sandeep Patel",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "India",
+      "rating": 91,
+      "batting_style": "Left-handed",
+      "allrounder": true,
+      "bowler": true,
+      "bowling_style": "Right-arm medium-fast",
+      "hire_price": 1850000
+    },
+    {
+      "name": "Michael Brown",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "West Indies",
+      "rating": 86,
+      "batting_style": "Right-handed",
+      "allrounder": false,
+      "bowler": false,
+      "bowling_style": "N/A",
+      "hire_price": 1500000
+    },
+    {
+      "name": "Tom Williams",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "England",
+      "rating": 84,
+      "batting_style": "Right-handed",
+      "allrounder": true,
+      "bowler": true,
+      "bowling_style": "Left-arm orthodox spin",
+      "hire_price": 1450000
+    },
+    {
+      "name": "Imran Shah",
+      "image": "https://i.ibb.co.com/rk7jcHh/man-with-beard-mustache-wearing-blue-orange-jersey-1261965-1046.jpg",
+      "country": "Pakistan",
+      "rating": 93,
+      "batting_style": "Right-handed",
+      "allrounder": false,
+      "bowler": true,
+      "bowling_style": "Right-arm fast",
+      "hire_price": 2000000
+    },
+    {
+      "name": "Jacob White",
+      "image": "https://i.ibb.co.com/Lgm7tPx/man-with-beard-mustache-holding-bat-1261965-1040.jpg",
+      "country": "South Africa",
+      "rating": 80,
+      "batting_style": "Right-handed",
+      "allrounder": true,
+      "bowler": true,
+      "bowling_style": "Right-arm leg-spin",
+      "hire_price": 1550000
+    },
+    {
+      "name": "Kevin George",
+      "image": "https://i.ibb.co.com/Lgm7tPx/man-with-beard-mustache-holding-bat-1261965-1040.jpg",
+      "country": "New Zealand",
+      "rating": 95,
+      "batting_style": "Left-handed",
+      "allrounder": false,
+      "bowler": true,
+      "bowling_style": "Left-arm fast",
+      "hire_price": 1700000
+    },
+    {
+      "name": "Ali Rahman",
+      "image": "https://i.ibb.co.com/Lgm7tPx/man-with-beard-mustache-holding-bat-1261965-1040.jpg",
+      "country": "Bangladesh",
+      "rating": 94,
+      "batting_style": "Right-handed",
+      "allrounder": true,
+      "bowler": true,
+      "bowling_style": "Left-arm fast-medium",
+      "hire_price": 1600000
+    }
+  ]
