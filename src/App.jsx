@@ -49,13 +49,13 @@ function App() {
         
       <Header   handleAddCoin={handleAddCoin} addCoin={addCoin}></Header>
       <Utlitiles playerPrice={playerPrice} removePlayerPrice={removePlayerPrice} addCoin={addCoin}></Utlitiles>
-      <div >
-      <div><Newsletter></Newsletter></div>
+      <div className='relative mt-80 '>
+      <Newsletter></Newsletter>
       
-      </div>
+    
       <Footer></Footer>
       </div>
-      
+      </div>
     </>
   )
 }

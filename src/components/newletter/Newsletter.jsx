@@ -2,9 +2,9 @@ import React from 'react';
 import bgImage from '../../assets/images/bg-shadow.png'
 const Newsletter = () => {
     return (
-        <div className=''>
-            <div className='bg-[#FFFFFF] p-3 border-2 border-[#FFFFFF] w-11/12 mx-auto rounded-xl'>
-            <div className='bg rounded-xl text-center p-20 '
+        <div className='absolute -top-72 md:-top-64 left-4 md:left-12 w-11/12 p-3 border-2 mx-auto rounded-xl'>
+            <div className=' bg-[#FFFFFF] rounded-xl'>
+            <div className='bg rounded-xl text-center p-12 md:p-20 '
               
         >
             
