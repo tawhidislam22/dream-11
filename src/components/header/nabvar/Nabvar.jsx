@@ -1,7 +1,11 @@
 import React from 'react';
 import navImage from '../../../assets/images/logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoins } from '@fortawesome/free-solid-svg-icons'
 
-const Nabvar = ({addCoin}) => {
+const Nabvar = ({addCoin,coin,addMoney}) => {
+    
+    
     return (
         <div className='flex justify-between items-center w-11/12 mx-auto p-4 mb-3'>
             <div>
@@ -14,7 +18,7 @@ const Nabvar = ({addCoin}) => {
                     <li><a href="">Teams</a></li>
                     <li><a href="">Schedules</a></li>
                 </ul>
-                <button>{addCoin} Coin</button>
+                <button>{addCoin} Coin <FontAwesomeIcon icon={faCoins} /></button>
             </div>
         </div>
     );

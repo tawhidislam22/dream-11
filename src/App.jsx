@@ -6,21 +6,46 @@ import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Newsletter from './components/newletter/Newsletter'
 import Utlitiles from './components/utlitiles/Utlitiles'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  let coin=0;
-  const playerPrice=price=>{
-        coin=price;
+  const [addCoin,setAddCoin]=useState(0);
+    const handleAddCoin=()=>{
+      
+        const newCoin=addCoin+600000;
+        setAddCoin(newCoin);
+        
+        
+    }
+    
+  
+  const  playerPrice=price=>{
+    const newCoin=addCoin-price;
+    setAddCoin(newCoin);
         
   }
-console.log(coin)
+ 
+  const removePlayerPrice=money=>{
+    const newCoin=addCoin+money;
+    setAddCoin(newCoin);
+  }
+  
+  
   return (
     <>
+      <div >
+        
+        
+      <Header   handleAddCoin={handleAddCoin} addCoin={addCoin}></Header>
+      <Utlitiles playerPrice={playerPrice} removePlayerPrice={removePlayerPrice} addCoin={addCoin}></Utlitiles>
+      <div >
+      <div><Newsletter></Newsletter></div>
       
-      <Header coin={coin}></Header>
-      <Utlitiles playerPrice={playerPrice}></Utlitiles>
-      <Newsletter></Newsletter>
+      </div>
       <Footer></Footer>
+      </div>
+      
     </>
   )
 }
