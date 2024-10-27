@@ -14,7 +14,7 @@ const Players = ({handleSeclect}) => {
     return (
         <div className=' w-11/12 mx-auto my-8'>
             
-               <div  className='grid grid-cols-3 content-start gap-4'>
+               <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 content-start gap-4'>
                 {
                 players.map(player=><Player handleSeclect={handleSeclect} key={player.rating} player={player}></Player>)
                 }

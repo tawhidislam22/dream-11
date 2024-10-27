@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Players from '../players/Players';
 import Selected from '../selected/Selected';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
+
 
 const Utlitiles = ({playerPrice,removePlayerPrice,addCoin}) => {
     const [active,setActive]=useState(true);
@@ -78,6 +78,7 @@ const Utlitiles = ({playerPrice,removePlayerPrice,addCoin}) => {
             }
         }
     }
+    
     const removePlayer=player=>{
         
         removePlayerPrice(player.hire_price);
@@ -102,19 +103,17 @@ const Utlitiles = ({playerPrice,removePlayerPrice,addCoin}) => {
         <div>
             <div className='flex justify-between items-center py-4 w-11/12 mx-auto'>
                 {
-                    active?<h4 className='text-2xl text-[#131313] font-semibold'>Available Players</h4>:<h4 className='text-2xl text-[#131313] font-semibold'>Selected Player ({seclect.length}/6)</h4>
+                    active?<h4 className='text-lg md:text-2xl text-[#131313] font-semibold'>Available Players</h4>:<h4 className='text-2xl text-[#131313] font-semibold'>Selected Player ({seclect.length}/6)</h4>
                 }
-                <div className='flex'>
-                    <button onClick={()=>handleActive(active)} className={active?'bg-[#E7FE29] p-3 rounded-l-lg text-[#131313] text-base font-medium':'none bg-[#FFFFFF] p-3 text-[#131313] text-base font-medium' }>Available</button>
-                    <button onClick={()=>handleActive(active)} className={!active?'bg-[#E7FE29] p-3 rounded-r-lg text-[#131313] text-base font-medium':'none bg-[#FFFFFF] p-3 text-[#131313] text-base font-medium'}>Selected ({seclect.length})</button>
+                <div className='flex '>
+                    <button onClick={()=>handleActive(active)} className={active?'bg-[#E7FE29] p-2 md:p-3 rounded-l-lg text-[#131313] text-base font-medium':'none bg-[#FFFFFF] p-3 text-[#131313] text-sm md:text-base font-medium' }>Available</button>
+                    <button onClick={()=>handleActive(active)} className={!active?'bg-[#E7FE29] p-2 md:p-3 rounded-r-lg text-[#131313] text-base font-medium':'none bg-[#FFFFFF] p-3 text-[#131313] text-sm md:text-base font-medium'}>Selected ({seclect.length})</button>
                 </div>
             </div>
             {
                 active?<Players handleSeclect={handleSeclect} ></Players>:<Selected seclect={seclect} removePlayer={removePlayer} addActive={addActive}></Selected>
             }
-            <ToastContainer
-
-/>
+            
                 
 
         </div>

@@ -7,7 +7,9 @@ const Header = ({handleAddCoin,addCoin})=> {
     
     return (
         <div>
+           
             <Nabvar addCoin={addCoin}  ></Nabvar>
+    
             <Banner handleAddCoin={handleAddCoin}></Banner>
         </div>
     );

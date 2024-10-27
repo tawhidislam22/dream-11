@@ -16,7 +16,7 @@ const Seclect = ({sec,removePlayer}) => {
             </div>
             </div>
             <div>
-                <button onClick={()=>removePlayer(sec)}><FontAwesomeIcon icon={faTrash} /></button>
+                <button className='bg-[#1313130D] py-2 px-3 text-lg text-[#F14749] font-normal rounded-md' onClick={()=>removePlayer(sec)}><FontAwesomeIcon icon={faTrash} /></button>
                 
             </div>
             </div>

@@ -6,3 +6,9 @@
 body{
   font-family: "Sora", sans-serif;
 }
+.bg{
+  background-image: url('./assets/images/bg-shadow.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

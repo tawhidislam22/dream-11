@@ -4,13 +4,13 @@ const Footer = () => {
     return (
         <div className='bg-[#06091A] mt-10 pt-40'>
             <img className='mx-auto' src={footImage} alt="" />
-<footer className=" footer bg-base-200 text-base-content p-10 flex justify-between items-center">
-  <nav className='w-1/4 flex flex-col'>
+<footer className=" footer bg-base-200 text-base-content p-10 flex flex-col md:flex-row justify-between ">
+  <nav className='md:w-1/4 flex flex-col'>
    <h6 className="footer-title text-lg text-[#FFFFFF] font-bold mb-3">About us</h6>
    <p className='text-base text-[#FFFFFF99] font-normal'>We are a passionate team dedicated to providing the best services to our customers.</p>
     
   </nav>
-  <nav className='flex flex-col'>
+  <nav className='flex flex-col '>
     <h6 className="footer-title text-lg text-[#FFFFFF] font-bold mb-3">Quick Links</h6>
     <a className="link link-hover text-base text-[#FFFFFF99] font-normal mb-2">Home</a>
     <a className="link link-hover text-base text-[#FFFFFF99] font-normal mb-2">Services</a>
